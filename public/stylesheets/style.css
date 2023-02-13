@@ -4,5 +4,27 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
+
+nav {
+  padding: 25px;
+  background-color: rgb(110, 16, 3);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.238);
+}
+
+button {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.238);
+}
+
+
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 50px;
+}
+

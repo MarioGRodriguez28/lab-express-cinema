@@ -1,0 +1,30 @@
+<div>
+
+  <nav>
+    <a href="/">
+      <button>Home</button>
+    </a>
+    <a href="/movies">
+      <button>Movies</button>
+    </a>
+  </nav>
+  <br />
+   <h1>Ironhack Cinema</h1>
+  <h2>More about {{moviesID.title}} </h2>
+<div>
+  <img src="{{moviesID.image}}" alt="" width="" />
+  <h2>{{moviesID.title}}</h2>
+  <h3>Director:</h3>
+  <p>{{moviesID.director}}</p>
+
+  <div>
+    <h4>Stars</h4>
+    <ul>
+      {{#each moviesID.stars}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+    </div>
+  </div>
+
+</div>
